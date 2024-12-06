@@ -1,0 +1,30 @@
+.assessment-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+  }
+  
+  .assessment-card {
+    background: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    text-align: left;
+    font-family: Arial, sans-serif;
+  }
+  
+  .assessment-card h3 {
+    color: #333;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+  }
+  
+  .assessment-card p {
+    margin: 5px 0;
+    color: #555;
+    font-size: 1em;
+  }
